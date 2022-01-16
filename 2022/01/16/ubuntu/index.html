@@ -6,15 +6,15 @@
   
   <title>ubuntu | yushk 个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="I am fronted-end developer">
+  <meta name="description" content="生成ssh key1ssh-keygen -t ed25519 -C &quot;github@qq.com&quot; 获取sshkey 公钥将公钥添加到git 上面1cat ~&#x2F;.ssh&#x2F;id_ed25519.pub 测试连接是否成功1ssh -T git@github.com">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ubuntu">
 <meta property="og:url" content="https://yushk.github.io/2022/01/16/ubuntu/index.html">
 <meta property="og:site_name" content="yushk 个人博客">
-<meta property="og:description" content="I am fronted-end developer">
+<meta property="og:description" content="生成ssh key1ssh-keygen -t ed25519 -C &quot;github@qq.com&quot; 获取sshkey 公钥将公钥添加到git 上面1cat ~&#x2F;.ssh&#x2F;id_ed25519.pub 测试连接是否成功1ssh -T git@github.com">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2022-01-16T11:41:00.000Z">
-<meta property="article:modified_time" content="2022-01-16T11:41:00.574Z">
+<meta property="article:modified_time" content="2022-01-16T12:10:38.974Z">
 <meta property="article:author" content="yushk">
 <meta name="twitter:card" content="summary">
   
@@ -95,11 +95,13 @@
     
     <div class="e-content article-entry" itemprop="articleBody">
       
-        
+        <h3 id="生成ssh-key"><a href="#生成ssh-key" class="headerlink" title="生成ssh key"></a>生成ssh key</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t ed25519 -C <span class="string">&quot;github@qq.com&quot;</span></span><br></pre></td></tr></table></figure>
+<h3 id="获取sshkey-公钥"><a href="#获取sshkey-公钥" class="headerlink" title="获取sshkey 公钥"></a>获取sshkey 公钥</h3><h3 id="将公钥添加到git-上面"><a href="#将公钥添加到git-上面" class="headerlink" title="将公钥添加到git 上面"></a>将公钥添加到git 上面</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_ed25519.pub</span><br></pre></td></tr></table></figure>
+<h3 id="测试连接是否成功"><a href="#测试连接是否成功" class="headerlink" title="测试连接是否成功"></a>测试连接是否成功</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://yushk.github.io/2022/01/16/ubuntu/" data-id="ckyh6ufbp0003uio63i415b2s" data-title="ubuntu" class="article-share-link">Share</a>
+      <a data-url="https://yushk.github.io/2022/01/16/ubuntu/" data-id="ckyh7wafc0004lzo676txewpq" data-title="ubuntu" class="article-share-link">Share</a>
       
       
       
